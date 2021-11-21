@@ -1,0 +1,11 @@
+version: 2
+
+# sources :- name and database name are different
+sources:
+  - name: covid
+    description: 'A db of covid_19'
+    database: INTERVIEW_DB
+    schema: PLAYGROUND_SOHAM_PAWAR
+    tables:
+      - name: Covid_19_Table
+        description: 'Contains Covid records of Indonesia'
